@@ -1,8 +1,9 @@
 // json schema of the add employee
-import { RJSFSchema } from "@rjsf/utils";
+import { RJSFSchema, UiSchema } from "@rjsf/utils";
 
 export const employeeSchema: RJSFSchema = {
     type: 'object',
+    required : ["name","email","phone","skills"],
     properties: {
         name: {
             type: "string",
@@ -87,6 +88,6 @@ export const employeeSchema: RJSFSchema = {
 
 export const employeeUiSchema: UiSchema = {
     summary: {
-      "ui:widget": "TextareaWidget"
+        "ui:widget": "TextareaWidget"
     }
-  };
+};

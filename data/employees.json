@@ -1,0 +1,57 @@
+[
+    {
+      "id": "1",
+      "name": "Akhil Jain",
+      "email": "akhil.jain@example.com",
+      "phone": "9876543210",
+      "country": "India",
+      "summary": "Frontend developer with strong experience in React, Next.js and TypeScript.",
+      "skills": ["React", "Next.js", "TypeScript"],
+      "educations": [
+        {
+          "degree": "B.Tech in Computer Engineering",
+          "institution": "Delhi Technological University",
+          "year": "2026"
+        }
+      ],
+      "additionalInfo": [
+        {
+          "category": "Certificate",
+          "title": "AWS Certified Developer",
+          "organization": "Amazon",
+          "year": "2024"
+        },
+        {
+          "category": "Award",
+          "title": "Best Intern Award",
+          "organization": "Tech Corp",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Priya Sharma",
+      "email": "priya.sharma@example.com",
+      "phone": "9123456780",
+      "country": "India",
+      "summary": "HR professional with experience in recruitment and employee engagement.",
+      "skills": ["Recruitment", "Communication", "Employee Relations"],
+      "educations": [
+        {
+          "degree": "MBA in Human Resources",
+          "institution": "IIM Indore",
+          "year": "2023"
+        }
+      ],
+      "additionalInfo": [
+        {
+          "category": "Award",
+          "title": "Employee Engagement Champion",
+          "organization": "HR Summit",
+          "year": "2024"
+        }
+      ]
+    }
+  ]
+  

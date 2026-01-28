@@ -12,7 +12,7 @@ import RJSFFieldTemplate from "./RJSFFeildTemplate";
 
 type EmployeeFormProps = {
   onSubmit: (data: any) => void;
-  formData?: any; // used for edit page
+  formData?: any;
 };
 
 const widgets = {
@@ -20,7 +20,7 @@ const widgets = {
   TextareaWidget: TextAreaWidget,
   SelectWidget
 };
-
+// TODO:
 export default function EmployeeForm({
   onSubmit,
   formData
