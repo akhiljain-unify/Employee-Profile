@@ -9,6 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@rjsf/core": "^6.2.5",
+    "@rjsf/utils": "^6.2.5",
+    "@rjsf/validator-ajv8": "^6.2.5",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3"
